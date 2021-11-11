@@ -1,0 +1,44 @@
+*{
+    background-color: bisque;
+}
+@media all and (min-width: 1001px) {
+    h1{
+        font-size: xx-large;
+      font-style: italic;
+      color:crimson;
+    }
+  }
+  
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    h1{
+        font-size: x-large;
+      font-style: italic;
+      color:darkblue;
+    }
+  }
+  
+  @media all and (max-width: 699px){
+    h1{
+        font-size: larger;
+        font-style: italic;
+        color:orchid;
+        margin-top: 5%;
+    }
+}
+@media all and (min-width: 1001px) {
+    img {
+       width: 30%;
+    }
+  }
+  
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    img{
+       width: 30%;
+    }
+  }
+  
+  @media all and (max-width: 699px){
+    img{
+      width: 30%;
+    }
+}
